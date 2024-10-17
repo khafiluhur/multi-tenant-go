@@ -1,6 +1,6 @@
 # Multi Tenant API
 
-Multi Tenant API is a backend service built with Go, using the Echo framework, designed to manage tenant data and integrate with RabbitMQ for message handling. The API allows you to create and delete tenants, consume messages from RabbitMQ queues, and provides logging with logrus.
+Multi Tenant API is a backend service built with Go, using the Echo framework, designed to manage tenant data and integrate with RabbitMQ for message handling. The API allows you to create and delete tenants, producers send rabbitMQ queues, consume messages from RabbitMQ queues, and provides logging with logrus.
 
 ## Features
 
